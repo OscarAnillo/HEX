@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  text-align: center;
+} 
+
+.hexColor {
+    text-transform: capitalize;
+}
+.hex {
+  font-size: 38px;
+}
+
+.btn {
+  color: #f15025;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 10px 30px;
+  border: 3px solid  #f15025;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
